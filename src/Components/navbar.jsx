@@ -2,22 +2,26 @@ import React from 'react';
 import SignUp from './images/SignUp.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import "./Styles/navbar.css"
 
 function NavBar() {
     return (
         <div>   
             <Navbar style={{ backgroundColor: '#F5F3F5' }} expand='lg'>
-                <Navbar.Brand>
+                <Navbar.Brand href='/home'>
                     Logo
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown title='Programs'>
-                            <NavDropdown.Item></NavDropdown.Item>
+                            <NavDropdown.Item href="/Math">Math</NavDropdown.Item>
+                            <NavDropdown.Item href="/Biology">Biology</NavDropdown.Item>
+                            <NavDropdown.Item href="/CS">Computer Science</NavDropdown.Item>
+                            <NavDropdown.Item href="/English">English</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/About">About</Nav.Link>
-                        <Nav.Link href="/Contact">Programs</Nav.Link>
+                        <Nav.Link href="/Connect">Connect</Nav.Link>
                         <Nav.Link href="/Resources">Resources</Nav.Link>
                     </Nav>
                     <Nav className='ml-auto'> {/* Add ml-auto class */}
