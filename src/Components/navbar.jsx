@@ -14,6 +14,7 @@ function NavBar() {
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
+                        <Nav.Link href='/Home'>Home</Nav.Link>
                         <NavDropdown title='Programs'>
                             <NavDropdown.Item href="/Math">Math</NavDropdown.Item>
                             <NavDropdown.Item href="/Biology">Biology</NavDropdown.Item>

@@ -1,14 +1,57 @@
-.semi-circle {
-    width: 100%; /* Set the width to 100% to match the width of the parent container */
-    height: 100px; /* Set the height of the semi-circle */
-    border-radius: 50% 50% 0 0; /* Use different border-radius values to create a semi-circle */
-    overflow: hidden; /* Hide the part of the circle below the container's height */
-    transform: rotate(180deg); /* Flip the semi-circle upside down */
-    background-color: #344055;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    /* For MacBook Air screen */
-    width: 100vw;
-    height: 563px;
-    flex-shrink: 0;
+.semi {
+  width: 100%;
+  height: auto;
+}
 
-  }
+.tetra {
+  width: 5%;
+  height: auto;
+  top: 0%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 0; /* Align SVG at the top */
+  left: 5%; /* Align SVG at the left */
+}
+
+.cone {
+  width: 5%;
+  height: auto;
+  top: 0%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 20%; /* Align SVG at the top */
+  left: 20%; /* Align SVG at the left */
+}
+
+.cube {
+  width: 6%;
+  height: auto;
+  top: 0%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 60%; /* Align SVG at the top */
+  left: 20%; /* Align SVG at the left */
+}
+
+.cube2 {
+  width: 5%;
+  height: auto;
+  top: 0%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 5%; /* Align SVG at the top */
+  left: 50%; /* Align SVG at the left */
+}
+
+.octo {
+  width: 8%;
+  height: auto;
+  top: 0%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 3%; /* Align SVG at the top */
+  left: 80%; /* Align SVG at the left */
+}
+
+.intro {
+  position: relative;
+}
+
+.top {
+  position: relative;
+}
