@@ -4,10 +4,6 @@ import Connect from './Pages/Connect';
 import Programs from './Pages/Programs';
 import Resources from './Pages/Resources';
 import About from './Pages/About';
-import Math from './Pages/Math'
-import English from './Pages/English'
-import Biology from './Pages/Biology'
-import CS from './Pages/CS'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Subject from './Pages/Subject';
 
