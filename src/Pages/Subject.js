@@ -2,6 +2,8 @@ import React from 'react'
 import {useLocation} from 'react-router-dom';
 import subjectData from '../data/subjectData'
 import NavBar from "../Components/navbar"
+import './Styles/Subject.css'
+
 
 const getSubjectFromPath = (path) => {
     console.log(path);
@@ -20,18 +22,22 @@ function Subject(){
     const { pathname } = location;
     const subject = getSubjectFromPath(pathname);
     const data = getDataForSubject(subject)
+    const capitalSubject = subject.charAt(0).toUpperCase() + subject.slice(1)
+
 
     return (
         <>
             <NavBar />
-            <h1>{subject}</h1>
-            {data.map(item => (
-                <div>
-                    <h2> {item.id} </h2>
-                    <p> {item.content} </p>
+            <div className='container'>
+                <h1 className='center'>{capitalSubject}</h1>
+                {data.map(item => (
+                    <div className='box'>
+                        <h3 className='data-item'> {item.id} </h3>
+                        <p className='data'> {item.content} </p>
 
-                </div>
-            ))}
+                    </div>
+                ))}
+            </div>
         </>
     );
 }

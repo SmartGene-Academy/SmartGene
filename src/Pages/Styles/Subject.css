@@ -1,0 +1,25 @@
+.box {
+    border: 1px solid #ccc;
+    padding: 1.5vw;
+    margin: 1.5vw;
+    border-radius: 1.5vw;
+    background-color: #f9f9f9;
+}
+
+.data-box {
+    padding: 1.25vw;
+    margin-top: 2.5vw;
+    border-radius: 2.5vw;
+    text-align: left;
+}
+
+.data-item {
+    padding: 1.25vw;
+    margin-bottom: 1.25vw;
+    border-radius: 2.5vw;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
