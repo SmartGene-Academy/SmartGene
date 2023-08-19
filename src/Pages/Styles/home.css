@@ -6,7 +6,6 @@
 .tetra {
   width: 5%;
   height: auto;
-  top: 0%;
   position: absolute; /* Position the SVG absolutely within the container */
   top: 0; /* Align SVG at the top */
   left: 5%; /* Align SVG at the left */
@@ -15,7 +14,6 @@
 .cone {
   width: 5%;
   height: auto;
-  top: 0%;
   position: absolute; /* Position the SVG absolutely within the container */
   top: 20%; /* Align SVG at the top */
   left: 20%; /* Align SVG at the left */
@@ -24,7 +22,6 @@
 .cube {
   width: 6%;
   height: auto;
-  top: 0%;
   position: absolute; /* Position the SVG absolutely within the container */
   top: 60%; /* Align SVG at the top */
   left: 20%; /* Align SVG at the left */
@@ -33,23 +30,117 @@
 .cube2 {
   width: 5%;
   height: auto;
-  top: 0%;
   position: absolute; /* Position the SVG absolutely within the container */
   top: 5%; /* Align SVG at the top */
-  left: 50%; /* Align SVG at the left */
+  left: 40%; /* Align SVG at the left */
 }
 
 .octo {
   width: 8%;
   height: auto;
-  top: 0%;
   position: absolute; /* Position the SVG absolutely within the container */
   top: 3%; /* Align SVG at the top */
   left: 80%; /* Align SVG at the left */
 }
 
 .intro {
-  position: relative;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 40px 40px rgba(119, 119, 119, 0.25);
+  font-family: Inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
+  top: 25%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 50%; /* Align SVG at the left */
+}
+
+.intro2 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 40px 40px rgba(119, 119, 119, 0.25);
+  font-family: Inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  flex-shrink: 0;
+  top: 36%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 43%; /* Align SVG at the left */
+}
+
+.join {
+  width: 25%;
+  height: auto;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 52%; /* Align SVG at the top */
+  left: 50%; /* Align SVG at the left */
+}
+
+.join2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  line-height: normal;
+  flex-shrink: 0;
+  top: 56.5%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 52%; /* Align SVG at the left */
+}
+
+.ball-top {
+  width: 20%;
+  height: auto;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 55%; /* Align SVG at the top */
+  left: 76%; /* Align SVG at the left */
+}
+
+.ball-top-text {
+  width: 10%;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  line-height: normal;
+  flex-shrink: 0;
+  top: 73%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 81%; /* Align SVG at the left */
+}
+
+.ball-middle {
+  width: 20%;
+  height: auto;
+  position: absolute; /* Position the SVG absolutely within the container */
+  top: 80%; /* Align SVG at the top */
+  left: 35%; /* Align SVG at the left */
+}
+
+.ball-mid-text {
+  width: 20%;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
+  top: 98%;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 35%; /* Align SVG at the left */
+  text-align: center;
 }
 
 .top {

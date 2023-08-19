@@ -56,7 +56,20 @@ function home(){
                     <path d="M76.844 76.581L97.98 30.887L53.901 0L76.844 76.581Z" fill="#EE6622"/>
                     <path d="M76.844 76.581L53.901 0L0 58.312L76.844 76.581Z" fill="#CC2255"/>
                 </svg>
-                <div className='text-slate-900'>SMARTGene</div>
+                <div className='intro'>SMARTGene</div>
+                <div className='intro2'>Innovation Starts Here</div>
+                <svg className='join' xmlns="http://www.w3.org/2000/svg" width="334" height="91" viewBox="0 0 334 91" fill="none">
+                    <path d="M0 45.5C0 20.371 20.371 0 45.5 0H288.5C313.629 0 334 20.371 334 45.5C334 70.629 313.629 91 288.5 91H45.5C20.371 91 0 70.629 0 45.5Z" fill="#EEAA00"/>
+                </svg>
+                <div className='join2'>Begin Your Journey</div>
+                <svg className='ball-top' xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291" fill="none">
+                    <path d="M291 145.5C291 225.857 225.857 291 145.5 291C65.1426 291 0 225.857 0 145.5C0 65.1426 65.1426 0 145.5 0C225.857 0 291 65.1426 291 145.5Z" fill="#CC2255"/>
+                </svg>
+                <div className='ball-top-text'>Grade 6 - 12</div>
+                <svg className='ball-middle' xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291" fill="none">
+                    <path d="M291 145.5C291 225.857 225.857 291 145.5 291C65.1426 291 0 225.857 0 145.5C0 65.1426 65.1426 0 145.5 0C225.857 0 291 65.1426 291 145.5Z" fill="#663366"/>
+                </svg>
+                <div className='ball-mid-text'>Academic Excellence</div>
             </div>
             
         </div>
