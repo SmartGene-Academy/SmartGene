@@ -7,7 +7,7 @@ import "./Styles/navbar.css"
 function NavBar() {
     return (
         <div>   
-            <Navbar style={{ backgroundColor: '#F5F3F5' }} expand='lg'>
+            <Navbar className='customNav' style={{ backgroundColor: '#F5F3F5' }} expand='lg'>
                 <Navbar.Brand href='/home'>
                     Logo
                 </Navbar.Brand>
