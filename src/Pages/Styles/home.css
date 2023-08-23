@@ -91,7 +91,7 @@
   line-height: normal;
   line-height: normal;
   flex-shrink: 0;
-  top: 56.5%;
+  top: 57%;
   position: absolute; /* Position the SVG absolutely within the container */
   left: 52%; /* Align SVG at the left */
 }
@@ -142,6 +142,64 @@
   left: 35%; /* Align SVG at the left */
   text-align: center;
 }
+
+.c1 {
+  width: 30%;
+  height: auto;
+  position: absolute; 
+  left: 3%; /* Align SVG at the left */
+}
+
+.c2 {
+  width: 43.5%;
+  height: auto;
+  position: absolute; 
+  left: 50%; /* Align SVG at the left */
+  top: 120px;
+}
+
+.c2_text {
+  width: 20%;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px; /* 135.556% */
+  flex-shrink: 0;
+  top: 200px;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 62%; /* Align SVG at the left */
+  text-align: center;
+}
+
+.c3 {
+  width: 43.5%;
+  height: auto;
+  position: absolute; 
+  left: 10%; /* Align SVG at the left */
+  top: 400px;
+}
+
+.c3_text {
+  width: 20%;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px; /* 135.556% */
+  flex-shrink: 0;
+  top: 200px;
+  position: absolute; /* Position the SVG absolutely within the container */
+  left: 62%; /* Align SVG at the left */
+  text-align: center;
+}
+
+.body { 
+  position: relative;
+}
+
 
 .top {
   position: relative;

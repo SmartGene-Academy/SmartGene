@@ -8,9 +8,17 @@ import './Styles/Subject.css'
 const getSubjectFromPath = (path) => {
     console.log(path);
     if (path === '/Math') return 'math'
-    if (path === '/CS') return 'cs'
+    if (path === '/ComputerScience') return 'cs'
     if (path === '/Biology') return 'biology'
     return 'english'
+}
+
+const getQuoteFromPath = (path) => {
+    console.log(path);
+    if (path === '/Math') return 'meth'
+    if (path === '/ComputerScience') return 'cs'
+    if (path === '/Biology') return 'Discover the magic of life!'
+    return 'A writer only begins a book. A reader finished it - Samuel Johnson'
 }
 
 const getDataForSubject = (subject) => {
@@ -22,7 +30,7 @@ function Subject(){
     const { pathname } = location;
     const subject = getSubjectFromPath(pathname);
     const data = getDataForSubject(subject)
-    const capitalSubject = subject.charAt(0).toUpperCase() + subject.slice(1)
+    const capitalSubject = subject.toUpperCase()
 
 
     return (
@@ -30,6 +38,7 @@ function Subject(){
             <NavBar />
             <div className='container'>
                 <h1 className='center'>{capitalSubject}</h1>
+                <h3 className='center'>{getQuoteFromPath(pathname)}</h3>
                 {data.map(item => (
                     <div className='box'>
                         <h3 className='data-item'> {item.id} </h3>

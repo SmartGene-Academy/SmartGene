@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/navbar';
 import './Styles/home.css'
+import { Link, NavLink } from 'react-router-dom';
 
 function home(){
     return(
@@ -58,9 +59,11 @@ function home(){
                 </svg>
                 <div className='intro'>SMARTGene</div>
                 <div className='intro2'>Innovation Starts Here</div>
+                <Link to="/SignUp"> 
                 <svg className='join' xmlns="http://www.w3.org/2000/svg" width="334" height="91" viewBox="0 0 334 91" fill="none">
                     <path d="M0 45.5C0 20.371 20.371 0 45.5 0H288.5C313.629 0 334 20.371 334 45.5C334 70.629 313.629 91 288.5 91H45.5C20.371 91 0 70.629 0 45.5Z" fill="#EEAA00"/>
                 </svg>
+                </Link>
                 <div className='join2'>Begin Your Journey</div>
                 <svg className='ball-top' xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291" fill="none">
                     <path d="M291 145.5C291 225.857 225.857 291 145.5 291C65.1426 291 0 225.857 0 145.5C0 65.1426 65.1426 0 145.5 0C225.857 0 291 65.1426 291 145.5Z" fill="#CC2255"/>
@@ -71,7 +74,34 @@ function home(){
                 </svg>
                 <div className='ball-mid-text'>Academic Excellence</div>
             </div>
-            
+            <div className='body'>
+                <svg className='c1' xmlns="http://www.w3.org/2000/svg" width="563" height="559" viewBox="0 0 563 559" fill="none">
+                    <g filter="url(#filter0_d_29_99)">
+                        <path d="M558.248 275.5C558.248 427.654 434.175 551 281.124 551C128.073 551 4 427.654 4 275.5C4 123.346 128.073 0 281.124 0C434.175 0 558.248 123.346 558.248 275.5Z" fill="#EEAA00"/>
+                        <path d="M557.748 275.5C557.748 427.376 433.902 550.5 281.124 550.5C128.346 550.5 4.5 427.376 4.5 275.5C4.5 123.624 128.346 0.5 281.124 0.5C433.902 0.5 557.748 123.624 557.748 275.5Z" stroke="black"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d_29_99" x="0" y="0" width="562.248" height="559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_29_99"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_29_99" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg className='c2' xmlns="http://www.w3.org/2000/svg" width="727" height="731" viewBox="0 0 727 731" fill="none">
+                    <path d="M726.232 365.5C726.232 567.36 563.819 731 363.473 731C163.127 731 0.713867 567.36 0.713867 365.5C0.713867 163.64 163.127 0 363.473 0C563.819 0 726.232 163.64 726.232 365.5Z" fill="#EE6622"/>
+                </svg>
+                <div className='c2_text'>Our Methodology</div>
+                <svg className='c3' xmlns="http://www.w3.org/2000/svg" width="597" height="586" viewBox="0 0 597 586" fill="none">
+                    <path d="M596.425 293C596.425 454.819 463.122 586 298.685 586C134.248 586 0.945557 454.819 0.945557 293C0.945557 131.181 134.248 0 298.685 0C463.122 0 596.425 131.181 596.425 293Z" fill="#663366"/>
+                </svg>
+                <div className='c3_text'>Certified Educators</div>
+            </div>
         </div>
     )
 };

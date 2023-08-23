@@ -18,7 +18,7 @@ function NavBar() {
                         <NavDropdown title='Programs'>
                             <NavDropdown.Item href="/Math">Math</NavDropdown.Item>
                             <NavDropdown.Item href="/Biology">Biology</NavDropdown.Item>
-                            <NavDropdown.Item href="/CS">Computer Science</NavDropdown.Item>
+                            <NavDropdown.Item href="/ComputerScience">Computer Science</NavDropdown.Item>
                             <NavDropdown.Item href="/English">English</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/About">About</Nav.Link>
