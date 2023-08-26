@@ -195,7 +195,22 @@
   left: 62%; /* Align SVG at the left */
   text-align: center;
 }
+.scrollable-subjects{
+  display: grid;
+  grid-auto-flow: column;
+  position: absolute;
+  top: 1100px;
+  left: 0%;
+  right: 0%;
+  gap: 5%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
 
+.scrollable-media{
+  display: grid;
+  
+}
 .body { 
   position: relative;
 }

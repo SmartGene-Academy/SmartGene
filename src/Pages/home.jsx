@@ -101,6 +101,20 @@ function home(){
                     <path d="M596.425 293C596.425 454.819 463.122 586 298.685 586C134.248 586 0.945557 454.819 0.945557 293C0.945557 131.181 134.248 0 298.685 0C463.122 0 596.425 131.181 596.425 293Z" fill="#663366"/>
                 </svg>
                 <div className='c3_text'>Certified Educators</div>
+                <div className='scrollable-subjects'>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
+                    </svg>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EEAA00"/>
+                    </svg>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2293 412 0 319.771 0 206C0 92.2293 92.2293 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EE6622"/>
+                    </svg>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2293 412 0 319.771 0 206C0 92.2293 92.2293 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EEAA00"/>
+                    </svg>
+                </div>
             </div>
         </div>
     )
