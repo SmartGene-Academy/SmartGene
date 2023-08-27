@@ -165,7 +165,7 @@
   font-size: 3vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 61px; /* 135.556% */
+  line-height: 135.556%; /* 135.556% */
   flex-shrink: 0;
   top: 200px;
   position: absolute; /* Position the SVG absolutely within the container */
@@ -174,11 +174,11 @@
 }
 
 .c3 {
-  width: 43.5%;
+  width: 40%;
   height: auto;
   position: absolute; 
   left: 10%; /* Align SVG at the left */
-  top: 400px;
+  top: 550px;
 }
 
 .c3_text {
@@ -188,29 +188,280 @@
   font-size: 3vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 61px; /* 135.556% */
+  line-height: 135.556%;
   flex-shrink: 0;
-  top: 200px;
-  position: absolute; /* Position the SVG absolutely within the container */
-  left: 62%; /* Align SVG at the left */
+  top: 630px;
+  position: absolute;
+  left: 20%;
   text-align: center;
 }
-.scrollable-subjects{
-  display: grid;
-  grid-auto-flow: column;
-  position: absolute;
-  top: 1100px;
-  left: 0%;
-  right: 0%;
-  gap: 5%;
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
+
+.c4 {
+  width: 50%;
+  height: auto;
+  position: absolute; 
+  left: 45%; /* Align SVG at the left */
+  top: 950px;
 }
 
-.scrollable-media{
-  display: grid;
+.c4_text {
+  width: 30%;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135.556%;
+  flex-shrink: 0;
+  top: 1030px;
+  position: absolute;
+  left: 55%;
+  text-align: center;
+}
+
+.c5 {
+  width: 35%;
+  height: auto;
+  position: absolute; 
+  left: 3%; /* Align SVG at the left */
+  top: 1350px;
+}
+
+.programs {
+  color: #606060;
+  position: relative;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95.313%;
+  top: 2050px;
+}
+
+.scrollable-subjects {
+  display: flex; /* Use flex for horizontal scrolling */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overscroll-behavior-inline: contain; /* Prevent over-scrolling from affecting parent scroll */
+  gap: 2%; /* Adjust as needed */
+  padding: 20px; /* Add padding for spacing */
+  width: 100%; /* Ensure full width */
+  white-space: nowrap; /* Prevent wrapping to the next line */
+  position: relative;
+  top: 2100px;
+}
+
+.scrollable-media {
+  flex-shrink: 0; /* Prevent SVGs from shrinking */
+  width: 25%; /* Each SVG occupies one-fourth of the container width */
+  max-width: 100%; /* Limit maximum width to 100% of container width */
+}
+
+.quoteb {
+  color: #606060;
+  position: relative;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95.313%;
+  top: 2200px;
+}
+
+.semi2 {
+  width: 100%;
+  height: auto;
+  position: absolute; /* Keep it as absolute position */
+  left: 0;
+  top: 2400px;
+}
+
+.footer_text {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 40px 40px rgba(119, 119, 119, 0.25);
+  font-family: Inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 2400px;
+}
+
+.foot_text{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 2400px;
+}
+
+
+@media (max-width: 1000px) {
+  .c2 {
+    top: 50px
+  }
+  .c2_text {
+
+    top: 60px;
+  }
+  .c3 {
+    top: 300px
+  }
+  .c3_text {
+    top: 340px;
+  }
+
+  .c4 {
+    top: 500px;
+  }
+
+  .c4_text {
+    top: 550px;
+  }
+
+  .c5 {
+    top: 750px;
+  }
+
+  .programs {
+    top: 1100px;
+  }
+
+  .scrollable-subjects {
+    top: 1000px;
+  }
+
+  .quoteb {
+    top: 900px;
+  }
+
+  .semi2 {
+    top: 1000px;
+  }
+
+  .footer_text {
+    top: 1000px;
+  }
+  
+  .foot_text{
+    top: 1000px;
+  }
+}
+
+@media (max-width: 700px) {
+  .c3 {
+    top: 200px;
+  }
+  .c3_text {
+    top: 220px;
+  }
+
+  .c4 {
+    top: 380px;
+  }
+
+  .c4_text {
+    top: 420px;
+  }
+
+  .c5 {
+    top: 500px;
+  }
+
+  .programs {
+    top: 750px;
+  }
+
+  .scrollable-subjects {
+    top: 650px;
+  }
+
+  .quoteb {
+    top: 500px;
+  }
+
+  .semi2 {
+    top: 600px;
+  }
+
+  .footer_text {
+    top: 600px;
+  }
+  
+  .foot_text{
+    top: 600px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1450px) {
+  .c2_text {
+    top: 150px;
+  }
+  .c3 {
+    top: 400px
+  }
+  .c3_text {
+    top: 440px;
+  }
+
+  .c4 {
+    top: 750px;
+  }
+
+  .c4_text {
+    top: 830px;
+  }
+
+  .c5 {
+    top: 1050px;
+  }
+
+  .programs {
+    top: 1550px;
+  }
+
+  .scrollable-subjects {
+    top: 1500px;
+  }
+
+  .quoteb {
+    top: 1500px;
+  }
+
+  .semi2 {
+    top: 1600px;
+  }
+
+  .footer_text {
+    top: 1600px;
+  }
+  
+  .foot_text{
+    top: 1600px;
+  }
   
 }
+
+/* Hide the horizontal scrollbar */
+.scrollable-subjects::-webkit-scrollbar {
+  width: 0.5em; /* Set the width of the scrollbar */
+}
+
+.scrollable-subjects::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the track */
+}
+
+.scrollable-subjects::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the color of the thumb (scrollbar handle) */
+}
+
 .body { 
   position: relative;
 }
@@ -218,4 +469,9 @@
 
 .top {
   position: relative;
+}
+
+.bottom {
+  position: relative; /* Position the div */
+  width: 100%; /* Full width */
 }

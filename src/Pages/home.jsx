@@ -63,8 +63,8 @@ function home(){
                 <svg className='join' xmlns="http://www.w3.org/2000/svg" width="334" height="91" viewBox="0 0 334 91" fill="none">
                     <path d="M0 45.5C0 20.371 20.371 0 45.5 0H288.5C313.629 0 334 20.371 334 45.5C334 70.629 313.629 91 288.5 91H45.5C20.371 91 0 70.629 0 45.5Z" fill="#EEAA00"/>
                 </svg>
-                </Link>
                 <div className='join2'>Begin Your Journey</div>
+                </Link>
                 <svg className='ball-top' xmlns="http://www.w3.org/2000/svg" width="291" height="291" viewBox="0 0 291 291" fill="none">
                     <path d="M291 145.5C291 225.857 225.857 291 145.5 291C65.1426 291 0 225.857 0 145.5C0 65.1426 65.1426 0 145.5 0C225.857 0 291 65.1426 291 145.5Z" fill="#CC2255"/>
                 </svg>
@@ -76,22 +76,7 @@ function home(){
             </div>
             <div className='body'>
                 <svg className='c1' xmlns="http://www.w3.org/2000/svg" width="563" height="559" viewBox="0 0 563 559" fill="none">
-                    <g filter="url(#filter0_d_29_99)">
-                        <path d="M558.248 275.5C558.248 427.654 434.175 551 281.124 551C128.073 551 4 427.654 4 275.5C4 123.346 128.073 0 281.124 0C434.175 0 558.248 123.346 558.248 275.5Z" fill="#EEAA00"/>
-                        <path d="M557.748 275.5C557.748 427.376 433.902 550.5 281.124 550.5C128.346 550.5 4.5 427.376 4.5 275.5C4.5 123.624 128.346 0.5 281.124 0.5C433.902 0.5 557.748 123.624 557.748 275.5Z" stroke="black"/>
-                    </g>
-                    <defs>
-                        <filter id="filter0_d_29_99" x="0" y="0" width="562.248" height="559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                        <feOffset dy="4"/>
-                        <feGaussianBlur stdDeviation="2"/>
-                        <feComposite in2="hardAlpha" operator="out"/>
-                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_29_99"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_29_99" result="shape"/>
-                        </filter>
-                    </defs>
+                    <path d="M558.248 275.5C558.248 427.654 434.175 551 281.124 551C128.073 551 4 427.654 4 275.5C4 123.346 128.073 0 281.124 0C434.175 0 558.248 123.346 558.248 275.5Z" fill="#EEAA00"/>
                 </svg>
                 <svg className='c2' xmlns="http://www.w3.org/2000/svg" width="727" height="731" viewBox="0 0 727 731" fill="none">
                     <path d="M726.232 365.5C726.232 567.36 563.819 731 363.473 731C163.127 731 0.713867 567.36 0.713867 365.5C0.713867 163.64 163.127 0 363.473 0C563.819 0 726.232 163.64 726.232 365.5Z" fill="#EE6622"/>
@@ -101,20 +86,56 @@ function home(){
                     <path d="M596.425 293C596.425 454.819 463.122 586 298.685 586C134.248 586 0.945557 454.819 0.945557 293C0.945557 131.181 134.248 0 298.685 0C463.122 0 596.425 131.181 596.425 293Z" fill="#663366"/>
                 </svg>
                 <div className='c3_text'>Certified Educators</div>
+                <svg className='c4' xmlns="http://www.w3.org/2000/svg" width="1004" height="1012" viewBox="0 0 1004 1012" fill="none">
+                    <path d="M1003.81 506C1003.81 785.456 779.269 1012 502.287 1012C225.306 1012 0.768402 785.456 0.768402 506C0.768402 226.544 225.306 0 502.287 0C779.269 0 1003.81 226.544 1003.81 506Z" fill="#CC2255"/>
+                </svg>
+                <div className='c4_text'>Who Are We?</div>
+                <svg className='c5' xmlns="http://www.w3.org/2000/svg" width="589" height="598" viewBox="0 0 589 598" fill="none">
+                    <path d="M588.352 299C588.352 464.133 456.824 598 294.576 598C132.329 598 0.801147 464.133 0.801147 299C0.801147 133.867 132.329 0 294.576 0C456.824 0 588.352 133.867 588.352 299Z" fill="#EEAA00"/>
+                </svg>
+                <div className='programs'>Explore Our Programs</div>
                 <div className='scrollable-subjects'>
                     <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
                         <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
                     </svg>
                     <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
-                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EEAA00"/>
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
                     </svg>
                     <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
-                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2293 412 0 319.771 0 206C0 92.2293 92.2293 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EE6622"/>
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
                     </svg>
                     <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
-                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2293 412 0 319.771 0 206C0 92.2293 92.2293 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#EEAA00"/>
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
+                    </svg>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
+                    </svg>
+                    <svg className='scrollable-media' xmlns="http://www.w3.org/2000/svg" width="412" height="412" viewBox="0 0 412 412" fill="none">
+                        <path d="M412 206C412 319.771 319.771 412 206 412C92.2294 412 0 319.771 0 206C0 92.2293 92.2294 0 206 0C319.771 0 412 92.2293 412 206Z" fill="#663366"/>
                     </svg>
                 </div>
+            </div>
+            <div className='bottom'>
+                <div className='quoteb'>"Live as if you were to die tomorrow. Learn as if you were to live forever" - Mahatma Gandhi</div>
+                <svg className='semi2' xmlns="http://www.w3.org/2000/svg" width="1736" height="640" viewBox="0 0 1736 640" fill="none">
+                    <g filter="url(#filter0_d_48_230)">
+                    <path d="M4 631.5C4 464.016 95.0283 303.391 257.06 184.962C419.091 66.5328 638.853 0 868 0C1097.15 0 1316.91 66.5328 1478.94 184.962C1640.97 303.391 1732 464.016 1732 631.5L868 631.5L4 631.5Z" fill="#344055"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_48_230" x="0" y="0" width="1736" height="639.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_48_230"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_48_230" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>
+                <div className='footer_text'>SMARTGene</div>
+                <div className='foot_text'>Connect With Us</div>
             </div>
         </div>
     )
